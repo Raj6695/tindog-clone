@@ -1,0 +1,189 @@
+#title {
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  z-index: 3;
+}
+
+.head1 {
+  font-size: 4.5em;
+  line-height: 1.5;
+  color: #f8f5f1;
+  padding-top: 70px;
+}
+
+.container {
+  padding: 3% 15% 3% 15%;
+}
+
+.a {
+  width: 150%;
+  position: inherit;
+  transform: rotate(30deg);
+  left: 250px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  ;
+  font-weight: bold;
+}
+.nav-link{
+  font-family: Ubuntu;
+}
+
+.navbutton {
+  margin: 20px;
+  font-family: Ubuntu;
+}
+
+/*-----------fraeures-----------*/
+.title-image {
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+}
+
+h3 {}
+
+#features {
+  padding: 7% 15%;
+  background-color: #f8f9fa;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 0 5% 0 5%;
+}
+
+.icon {
+  color: #da7f8f;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff8474;
+}
+
+#testimonials {
+  background-color: #ff8474;
+  text-align: center;
+}
+
+.testimonial-headlines {
+  font-family: 'Montserrat';
+  font-size: 4.5em;
+  color: #f8f5f1;
+}
+
+.carousel-item {
+  padding: 7% 14% 3% 14%;
+}
+
+.testimonial-image {
+  width: 100px;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#press {
+  background-color: #ff8474;
+  padding: 3% 3%;
+  text-align: center;
+}
+
+.press-image {
+  margin: 20px;
+  width: 200px;
+}
+
+#pricing {
+  margin: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: rem;
+}
+
+.card-body {
+  padding: 3%;
+  margin: 20px;
+}
+
+.tweak-mastiff {
+  margin-bottom: 25px;
+}
+
+.cart-body1 {
+  padding: 3% 4%;
+}
+
+/*cta*/
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 30px;
+}
+
+.cta-h3 {
+  font-size: 3rem;
+  color: #f8f5f1;
+  padding: 4% 30%;
+}
+
+.cta-btn {
+  margin: 1%;
+}
+
+#footer {
+  text-align: center;
+  padding: 4%;
+}
+
+.footer-icons {
+  padding: 2%;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+   .a,.title-image {
+
+    transform: rotate(0deg);
+    width: 50%;
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+  }
+
+  .head1 {
+    font-size: 2rem;
+  }
+
+  .testimonial-headlines {
+    font-size: 2rem;
+  }
+
+  .press-image {
+    width: 100px;
+  }
+}
